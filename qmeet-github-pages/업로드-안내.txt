@@ -1,0 +1,11 @@
+GitHub에 올리는 방법
+
+1. 새 저장소를 만들거나 사용할 저장소를 엽니다.
+2. 이 폴더 안의 파일을 저장소 최상위에 올립니다. github-pages 폴더 자체를 올리는 것이 아니라, 그 안의 index.html과 폴더들을 올립니다.
+3. Settings → Pages → Source를 GitHub Actions로 선택합니다.
+4. Actions → Deploy GitHub Pages → Run workflow를 실행합니다.
+5. Settings → Pages에서 웹사이트 주소를 확인합니다.
+
+처음 업로드할 때 숨김 폴더 .github와 숨김 파일 .nojekyll도 포함하세요.
+영상 2개는 videos 폴더에 들어 있습니다.
+원래 HTML의 이미지를 assets 폴더로 분리해 업로드하기 쉽게 만들었습니다. 폴더 구조를 유지하세요.
